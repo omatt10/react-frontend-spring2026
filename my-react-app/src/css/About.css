@@ -1,0 +1,90 @@
+.about-hero {
+  background: var(--light-blue);
+  padding: 60px 50px 40px;
+}
+
+.about-hero h1 {
+  font-size: 42px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.about-mission {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.mission-img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.about-badges {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  flex: 1;
+  min-width: 100px;
+}
+
+.badge img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.badge span {
+  font-size: 13px;
+  color: var(--gray);
+  font-weight: 600;
+}
+
+.about-goals {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  padding: 0 50px;
+}
+
+.about-goals h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--black);
+  margin-bottom: 15px;
+}
+
+.about-goals p {
+  font-size: 14px;
+  color: var(--gray);
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 40px 20px;
+  }
+  .about-mission {
+    padding: 0 20px;
+    margin: 40px auto;
+  }
+  .about-badges {
+    gap: 20px;
+  }
+  .about-goals {
+    padding: 0 20px;
+    margin: 40px auto;
+  }
+}

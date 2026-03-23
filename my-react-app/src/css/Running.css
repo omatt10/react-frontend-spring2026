@@ -1,0 +1,167 @@
+.tracker-section {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 50px;
+}
+
+.tracker-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.tracker-form {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 35px;
+}
+
+.tracker-form h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.tracker-form > p {
+  font-size: 14px;
+  color: var(--gray);
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: var(--gray);
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: var(--blue);
+}
+
+.calculate-btn {
+  width: 100%;
+  padding: 12px;
+  background: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.calculate-btn:hover {
+  background: var(--dark-blue);
+}
+
+.tracker-results {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tracker-results h2 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 25px;
+}
+
+.stat-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--light-blue);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: var(--gray);
+  margin-top: 2px;
+}
+
+.tips-section {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  padding: 0 50px;
+}
+
+.tips-section h2 {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.tip-card {
+  background: var(--light-blue);
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.tip-card h3 {
+  font-size: 16px;
+  color: var(--blue);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.tip-card p {
+  font-size: 14px;
+  color: var(--gray);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .tracker-section {
+    padding: 0 20px;
+    margin: 40px auto;
+  }
+  .tracker-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .tips-section {
+    padding: 0 20px;
+    margin: 40px auto;
+  }
+  .tips-grid {
+    grid-template-columns: 1fr;
+  }
+}
