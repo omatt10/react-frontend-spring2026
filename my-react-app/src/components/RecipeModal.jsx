@@ -1,4 +1,4 @@
-import "./css/RecipeModal.css";
+import "../css/RecipeModal.css";
 
 const RecipeModal = ({ recipe, onClose }) => {
   if (!recipe) return null;
