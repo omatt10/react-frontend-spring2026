@@ -28,7 +28,11 @@ const Home = () => {
     <main id="home">
       {/* Hero */}
       <section className="hero">
-        <img src="/react-frontend-spring2026/images/hero.png" alt="Hero" className="hero-bg" />
+        <img
+          src="/react-frontend-spring2026/images/hero.png"
+          alt="Hero"
+          className="hero-bg"
+        />
         <div className="hero-overlay">
           <h1>Track Progress, See Change</h1>
           <p>Enter your BMI to calculate to help you for the BMR calculator</p>

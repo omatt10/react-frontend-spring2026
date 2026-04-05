@@ -130,3 +130,27 @@
     grid-template-columns: 1fr;
   }
 }
+
+.contact-submit-btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.form-message {
+  margin-top: 14px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-success {
+  background: #eafaf1;
+  border: 1px solid #a9dfbf;
+  color: #1e8449;
+}
+
+.form-error {
+  background: #fdedec;
+  border: 1px solid #f5b7b1;
+  color: #c0392b;
+}
