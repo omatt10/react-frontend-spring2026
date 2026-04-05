@@ -6,20 +6,20 @@ const metrics = [
     title: "BMI",
     value: "23.5",
     label: "Based on weight and height",
-    image: "./images/bodyMassIndex.webp",
+    image: "/react-frontend-spring2026/images/bodyMassIndex.webp",
   },
   {
     title: "Body Fat %",
     value: "18.7%",
     label: "Based on weight and height",
-    image: "./images/body-fat-percentage.jpg",
+    image: "/react-frontend-spring2026/images/body-fat-percentage.jpg",
   },
   {
     title: "BMR",
     value: "1,758",
     subText: "kcal/day",
     label: "Basal Metabolic Rate",
-    image: "./images/BMR.webp",
+    image: "/react-frontend-spring2026/images/BMR.webp",
   },
 ];
 
