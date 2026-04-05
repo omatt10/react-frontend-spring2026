@@ -16,7 +16,7 @@ const About = () => {
 
       <section className="about-mission">
         <div className="mission-text">
-          <img src="images/aboutme.png" alt="Mission" className="mission-img" />
+          <img src="/react-frontend-spring2026/images/aboutme.png" alt="Mission" className="mission-img" />
         </div>
 
         <div className="about-badges">

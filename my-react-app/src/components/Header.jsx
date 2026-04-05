@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header id="main-header">
       <Link to="/" className="logo">
-        <img src="images/logo.png" alt="Logo" />
+        <img src="/react-frontend-spring2026/images/logo.png" alt="Logo" />
         <span>Core Metrics</span>
       </Link>
       <Navigation />
