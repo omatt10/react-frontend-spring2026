@@ -61,7 +61,7 @@ const Recipes = () => {
             {recipes.map((recipe) => (
               <RecipeCard
                 key={recipe._id}
-                image={`https://demo-backend-7l6h.onrender.com/${recipe.main_image}`}
+                image={`/react-frontend-spring2026/images/${recipe.main_image.replace('images/', '')}`}
                 category={recipe.category}
                 title={recipe.name}
                 description={recipe.description}
