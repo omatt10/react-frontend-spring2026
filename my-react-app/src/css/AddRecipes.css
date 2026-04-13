@@ -62,7 +62,7 @@
 }
 
 .ar-four {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .ar-field {
