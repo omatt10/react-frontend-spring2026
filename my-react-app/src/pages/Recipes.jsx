@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import RecipeCard from "../components/RecipeCard.jsx";
 import RecipeModal from "../components/RecipeModal.jsx";
-import AddRecipe from "../components/AddRecipe.jsx";
+import AddRecipe from "../components/AddRecipes.jsx";
 import "../css/Recipes.css";
 
 const API_URL = "https://demo-backend-7l6h.onrender.com/api/recipes";
@@ -61,6 +61,7 @@ const Recipes = () => {
             {recipes.map((recipe) => (
               <RecipeCard
                 key={recipe._id}
+                image={`https://demo-backend-7l6h.onrender.com/${recipe.main_image}`}
                 category={recipe.category}
                 title={recipe.name}
                 description={recipe.description}

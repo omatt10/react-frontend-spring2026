@@ -1,4 +1,5 @@
 const RecipeCard = ({
+  image,
   category,
   title,
   description,
