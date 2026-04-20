@@ -126,6 +126,49 @@
   margin-top: 8px;
 }
 
+/* Styles for edit/delete buttons */
+.recipe-card-actions {
+  display: flex;
+  gap: 8px;
+  padding: 0 20px 16px;
+}
+
+.recipe-edit-btn {
+  flex: 1;
+  padding: 8px;
+  background: var(--light-blue);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.recipe-edit-btn:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.recipe-delete-btn {
+  flex: 1;
+  padding: 8px;
+  background: #fdedec;
+  color: #c0392b;
+  border: 1px solid #f5b7b1;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.recipe-delete-btn:hover {
+  background: #c0392b;
+  color: var(--white);
+}
+
 @media (max-width: 1024px) {
   .recipe-grid {
     grid-template-columns: repeat(2, 1fr);
