@@ -32,6 +32,8 @@ const validate = (form) => {
     errors.ingredients = "Ingredients must be at least 5 characters.";
   if (!form.instructions || form.instructions.length < 5)
     errors.instructions = "Instructions must be at least 5 characters.";
+  if (!form.image || form.image.length < 1)
+    errors.image = "Image filename is required.";
   return errors;
 };
 
